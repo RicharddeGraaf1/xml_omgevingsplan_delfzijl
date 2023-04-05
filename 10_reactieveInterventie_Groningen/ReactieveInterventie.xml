@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    schemaversie="1.2.0"
+                    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd"> 
+   <BesluitVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/akn/nl/bill/pv20/2021/Besluit</FRBRWork>
+         <FRBRExpression>/akn/nl/bill/pv20/2021/Besluit/nld@2021-10-15</FRBRExpression>
+         <soortWork>/join/id/stop/work_003</soortWork>
+      </ExpressionIdentificatie>
+      <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/tooi/id/provincie/pv20</eindverantwoordelijke>
+         <maker>/tooi/id/provincie/pv20</maker>
+         <!--soortBestuursorgaan is 'gedeputeerde staten'.-->
+         <soortBestuursorgaan>/tooi/def/thes/kern/c_61676cbc</soortBestuursorgaan>
+         <officieleTitel>Reactieve interventie aan Delfzijl</officieleTitel>
+         <onderwerpen>
+            <onderwerp>/tooi/def/concept/c_989e37d9</onderwerp>
+         </onderwerpen>
+         <rechtsgebieden>
+            <rechtsgebied>/tooi/def/concept/c_8054d6b3</rechtsgebied>
+         </rechtsgebieden>
+         <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
+         <informatieobjectRefs>
+            <informatieobjectRef>/join/id/regdata/pv20/2021/BouwvlakDelfzijl/nld@2021-10-15</informatieobjectRef>
+         </informatieobjectRefs>
+      </BesluitMetadata>
+      <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <bekendOp>2020-05-11</bekendOp>
+         <ontvangenOp>2021-05-11</ontvangenOp>
+         <procedurestappen>
+            <Procedurestap>
+               <soortStap>/join/id/stop/procedure/stap_003</soortStap>
+               <voltooidOp>2021-05-21</voltooidOp>
+            </Procedurestap>
+         </procedurestappen>
+      </Procedureverloop>
+      <ConsolidatieInformatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <BeoogdeRegelgeving>
+            <BeoogdeRegeling>
+               <doelen>
+                  <doel>/join/id/proces/pv20/2021/ReactieveInterventie</doel>
+               </doelen>
+               <instrumentVersie>/akn/nl/act/pv20/2021/Interventie/nld@2021-10-15</instrumentVersie>
+               <eId>art_II</eId>
+            </BeoogdeRegeling>
+            <BeoogdInformatieobject>
+               <doelen>
+                  <doel>/join/id/proces/pv20/2021/ReactieveInterventie</doel>
+               </doelen>
+               <instrumentVersie>/join/id/regdata/pv20/2021/BouwvlakDelfzijl/nld@2021-10-15</instrumentVersie>
+               <eId>!reactieve_interventie_w12#cmp_A__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
+            </BeoogdInformatieobject>
+         </BeoogdeRegelgeving>
+         <Tijdstempels>
+            <Tijdstempel>
+               <doel>/join/id/proces/pv20/2021/ReactieveInterventie</doel>
+               <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
+               <datum>2021-11-21</datum>
+               <eId>art_IV</eId>
+            </Tijdstempel>
+         </Tijdstempels>
+      </ConsolidatieInformatie>
+      <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+         <RegelingOpschrift eId="longTitle" wId="longTitle">
+            <Al>Reactieve interventie aan Delfzijl</Al>
+         </RegelingOpschrift>
+         <Aanhef eId="formula_1" wId="formula_1">
+            <Al>Gedeputeerde staten van de provincie Groningen,</Al>
+            <Al>overwegende dat burgemeester en wethouders van de gemeente Delfzijl in het
+               omgevingsplan een bepaling voor bouwvlak heeft verwijderd;</Al>
+            <Al>overwegende dat wij het op grond van het tweede lid van artikel 10.3
+               Omgevingsbesluit verplichte overleg met burgemeester en wethouders hebben
+               gevoerd;</Al>
+            <Al>gelet op de bepalingen van artikel 16.21 Omgevingswet;</Al>
+            <Al>besluiten:</Al>
+         </Aanhef>
+         <Lichaam eId="body" wId="body">
+            <Artikel eId="art_I" wId="pv20_1__art_I">
+               <Kop>
+                  <Label>Artikel</Label>
+                  <Nummer>I</Nummer>
+               </Kop>
+               <Inhoud>
+                  <Al>Het omgevingsplan moet in lijn gebracht worden met de omgevingsverordening,
+                     het betreft:</Al>
+                  <Lijst eId="art_I__list_o_1"
+                         wId="pv20_1__art_I__list_o_1"
+                         type="ongemarkeerd">
+                     <Li eId="art_I__list_o_1__item_o_1" wId="pv20_1__art_I__list_o_1__item_o_1">
+                        <Al>het instellen van een bouwvlak</Al>
+                     </Li>
+                  </Lijst>
+               </Inhoud>
+            </Artikel>
+            <WijzigArtikel eId="art_II" wId="pv20_1__art_II">
+               <Kop>
+                  <Label>Artikel</Label>
+                  <Nummer>II</Nummer>
+               </Kop>
+               <Wat>Door deze <IntRef ref="cmp_1">reactieve interventie</IntRef> gelden de betreffende onderdelen zoals
+                  aangegeven in bijlage 1.</Wat>
+            </WijzigArtikel>
+            <Artikel eId="art_III" wId="pv20_1__art_III">
+               <Kop>
+                  <Label>Artikel</Label>
+                  <Nummer>III</Nummer>
+               </Kop>
+               <Inhoud>
+                  <Al>De gemeenteraad dient er voor te zorgen dat het omgevingsplan binnen 5
+                     werkdagen na bekendmaking van dit besluit in overeenstemming is met bijlage 1.</Al>
+               </Inhoud>
+            </Artikel>
+            <Artikel eId="art_IV" wId="pv20_1__art_IV">
+               <Kop>
+                  <Label>Artikel</Label>
+                  <Nummer>IV</Nummer>
+               </Kop>
+               <Inhoud>
+                  <Al>Dit besluit treedt in werking gelijktijdig met de inwerkingtreding van het
+                     besluit 2020-34 van de gemeenteraad van de gemeente Gemeentestad tot wijziging
+                     van het omgevingsplan.</Al>
+               </Inhoud>
+            </Artikel>
+         </Lichaam>
+         <Sluiting eId="formula_2" wId="formula_2">
+            <Al>Aldus besloten in de vergadering d.d. 6 mei 2020</Al>
+            <Ondertekening>
+               <Al>B.Y. Twaalf</Al>
+               <Al>De voorzitter</Al>
+               <Al>S.E. Cretaris</Al>
+               <Al>De griffier</Al>
+            </Ondertekening>
+         </Sluiting>
+         <WijzigBijlage eId="cmp_1" wId="pv20_1__cmp_1">
+            <Kop>
+               <Label>Bijlage</Label>
+               <Nummer>1</Nummer>
+               <Opschrift>Bijlage bij Artikel I</Opschrift>
+            </Kop>
+            <RegelingTijdelijkdeel componentnaam="reactieve_interventie_w12"
+                                   wordt="/akn/nl/act/pv20/2021/Interventie/nld@2021-10-15">
+               <RegelingOpschrift eId="longTitle" wId="longTitle">
+                  <Al>Reactieve interventie aan gemeente Delfzijl mbt het bouwvlak dat ze niet hadden moeten verwijderen</Al>
+               </RegelingOpschrift>
+               <Lichaam eId="body" wId="body">
+                  <Conditie>
+                     <Artikel eId="art_o_1" wId="pv20_1__art_o_1">
+                        <Kop>
+                           <Opschrift>Voorrangsbepaling</Opschrift>
+                        </Kop>
+                        <Inhoud>
+                           <Al>Indien en voorzover de geconsolideerde regeling van het omgevingsplan
+                              van de gemeente Delfzijl niet in overeenstemming is gebracht met
+                              de bepalingen van hoofdstuk 1 van deze reactieve interventie, gelden
+                              uitsluitend de bepalingen van hoofdstuk 1, met inachtneming van de
+                              geografische informatieobjecten in de Bijlage Geografische
+                              informatieobjecten.</Al>
+                        </Inhoud>
+                     </Artikel>
+                  </Conditie>
+                  <Hoofdstuk eId="chp_1" wId="pv20_1__chp_1">
+                     <Kop>
+                        <Label>Hoofdstuk</Label>
+                        <Nummer>1</Nummer>
+                        <Opschrift>Geldende regels omgevingsplan</Opschrift>
+                     </Kop>
+                     <Artikel eId="chp_1__art_1.1" wId="pv20_1__chp_1__art_1.1">
+                        <Kop>
+                           <Label>Artikel</Label>
+                           <Nummer>1.1</Nummer>
+                        </Kop>
+                        <Inhoud>
+                           <Al>Artikel 13x2 en het bijbehorende werkingsgebied dat is vastgelegd in het geografisch
+                              informatieobject ‘Bouwvlak Centrum Delfzijl’ van bijlage I van
+                              de hoofdregeling van het omgevingsplan geldt voor het werkingsgebied
+                              dat is vastgelegd in het geografisch informatieobject ‘<IntIoRef eId="chp_1__art_1.1__ref_o_1"
+                                        wId="pv20_1__chp_1__art_1.1__ref_o_1"
+                                        ref="pv20_1__cmp_A__content_o_1__list_o_1__item_o_1__ref_o_1">Bouwvlak Centrum Delfzijl</IntIoRef>’ een bepaling dat je gewoon weer lekker mag bouwen.</Al>
+                        </Inhoud>
+                     </Artikel>
+                  </Hoofdstuk>
+               </Lichaam>
+               <Bijlage eId="cmp_A" wId="pv20_1__cmp_A">
+                  <Kop>
+                     <Label>Bijlage</Label>
+                     <Nummer>A</Nummer>
+                     <Opschrift>Overzicht informatieobjecten</Opschrift>
+                  </Kop>
+                  <Divisietekst eId="cmp_A__content_o_1" wId="pv20_1__cmp_A__content_o_1">
+                     <Inhoud>
+                        <Begrippenlijst eId="cmp_A__content_o_1__list_o_1"
+                                        wId="pv20_1__cmp_A__content_o_1__list_o_1">
+                           <Begrip eId="cmp_A__content_o_1__list_o_1__item_o_1"
+                                   wId="pv20_1__cmp_A__content_o_1__list_o_1__item_o_1">
+                              <Term>Bouwvlak Centrum Delfzijl</Term>
+                              <Definitie>
+                                 <Al>
+                                    <ExtIoRef eId="cmp_A__content_o_1__list_o_1__item_o_1__ref_o_1"
+                                              wId="pv20_1__cmp_A__content_o_1__list_o_1__item_o_1__ref_o_1"
+                                              ref="/join/id/regdata/pv20/2021/BouwvlakDelfzijl/nld@2021-10-15">/join/id/regdata/pv20/2021/BouwvlakDelfzijl/nld@2021-10-15</ExtIoRef>
+                                 </Al>
+                              </Definitie>
+                           </Begrip>
+                        </Begrippenlijst>
+                     </Inhoud>
+                  </Divisietekst>
+               </Bijlage>
+               <Toelichting eId="recital_o_1" wId="pv20_1__recital_o_1">
+                  <Kop>
+                     <Opschrift>Toelichtingkop met alleen opschrift</Opschrift>
+                  </Kop>
+                  <Divisietekst eId="recital_o_1__content_o_1" wId="pv20_1__recital_o_1__content_o_1">
+                     <Inhoud>
+                        <Al>Inhoud van de toelichting in een divisietekst.</Al>
+                     </Inhoud>
+                  </Divisietekst>
+                  <Bijlage eId="recital_o_1__cmp_1" wId="pv20_1__recital_o_1__cmp_1">
+                     <Kop>
+                        <Nummer>1</Nummer>
+                     </Kop>
+                     <Divisietekst eId="recital_o_1__cmp_1__content_o_1"
+                                   wId="pv20_1__recital_o_1__cmp_1__content_o_1">
+                        <Inhoud>
+                           <Al>Inhoud van de bijlage in de toelichting (in een divisietekst).</Al>
+                        </Inhoud>
+                     </Divisietekst>
+                  </Bijlage>
+               </Toelichting>
+            </RegelingTijdelijkdeel>
+         </WijzigBijlage>
+      </BesluitCompact>
+   </BesluitVersie>
+   <RegelingVersieInformatie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/akn/nl/act/pv20/2021/Interventie</FRBRWork>
+         <FRBRExpression>/akn/nl/act/pv20/2021/Interventie/nld@2021-10-15</FRBRExpression>
+         <soortWork>/join/id/stop/work_021</soortWork>
+         <isTijdelijkDeelVan>
+            <WorkIdentificatie>
+               <FRBRWork>/akn/nl/act/gm1979/2021/omgevingsplandelfzijl</FRBRWork>
+               <soortWork>/join/id/stop/work_019</soortWork>
+            </WorkIdentificatie>
+         </isTijdelijkDeelVan>
+      </ExpressionIdentificatie>
+      <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <versienummer>1</versienummer>
+      </RegelingVersieMetadata>
+      <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <soortRegeling>/join/id/stop/regelingtype_011</soortRegeling>
+         <eindverantwoordelijke>/tooi/id/provincie/pv20</eindverantwoordelijke>
+         <maker>/tooi/id/provincie/pv20</maker>
+         <!--soortBestuursorgaan is 'gedeputeerde staten'.-->
+         <soortBestuursorgaan>/tooi/def/thes/kern/c_61676cbc</soortBestuursorgaan>
+         <officieleTitel>Reactieve interventie aan gemeente Delfzijl mbt het bouwvlak dat ze niet hadden moeten verwijderen</officieleTitel>
+         <overheidsdomeinen>
+            <overheidsdomein>/tooi/def/concept/c_bed49b60</overheidsdomein>
+         </overheidsdomeinen>
+         <onderwerpen>
+            <onderwerp>/tooi/def/concept/c_2408fb5a</onderwerp>
+         </onderwerpen>
+         <rechtsgebieden>
+            <rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
+         </rechtsgebieden>
+      </RegelingMetadata>
+   </RegelingVersieInformatie>
+</AanleveringBesluit>

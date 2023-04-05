@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             schemaversie="1.2.0"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/gm1979/2021/bouwvlak_Delfzijl_Centrum</FRBRWork>
+         <FRBRExpression>/join/id/regdata/gm1979/2021/bouwvlak_Delfzijl_Centrum/nld@2021-08-02;1</FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>Delfzijl_Centrum_Bouwvlak.gml</bestandsnaam>
+                  <hash>682752cdce9b1b3058bfc42e47beec5afcda4b026d48f79e220636f10d549bd3c51d6b7c9e0a07f296dabb302721807068f5cf52d37719746a3cd351c56ae32b</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+         <heeftGeboorteregeling>/akn/nl/act/gm1979/2021/omgevingsplandelfzijl</heeftGeboorteregeling>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/tooi/id/gemeente/gm1979</eindverantwoordelijke>
+         <maker>/tooi/id/gemeente/gm1979</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>Bouwvlak Delfzijl Centrum</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>/join/id/regdata/gm1979/2021/bouwvlak_Delfzijl_Centrum</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+         <naamInformatieObject>Bouwvlak Delfzijl Centrum</naamInformatieObject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

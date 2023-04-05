@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+ <BesluitVersie>
+  <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+   <FRBRWork>/akn/nl/bill/gm1979/2021/omgevingsplandelfzijl_VierdeOntwerp2</FRBRWork>
+   <FRBRExpression>/akn/nl/bill/gm1979/2021/omgevingsplandelfzijl_VierdeOntwerp2/nld@2022-01-24;3</FRBRExpression>
+   <soortWork>/join/id/stop/work_003</soortWork>
+  </ExpressionIdentificatie>
+  <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+   <eindverantwoordelijke>/tooi/id/gemeente/gm1979</eindverantwoordelijke>
+   <maker>/tooi/id/gemeente/gm1979</maker>
+   <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
+   <officieleTitel>wijziging omgevingsplan Delfzijl</officieleTitel>
+   <onderwerpen>
+    <onderwerp>/tooi/def/concept/c_124eaf3a</onderwerp>
+   </onderwerpen>
+   <rechtsgebieden>
+    <rechtsgebied>/tooi/def/concept/c_638d8062</rechtsgebied>
+   </rechtsgebieden>
+   <soortProcedure>/join/id/stop/proceduretype_ontwerp</soortProcedure>
+   <informatieobjectRefs>
+    <informatieobjectRef>/join/id/regdata/gm1979/2021/Delfzijl_Hoofdinfrastructuur/nld@2023-01-24;1;ontwerp2</informatieobjectRef>
+    <informatieobjectRef>/join/id/regdata/gm1979/2021/Delfzijl_Punt/nld@2023-01-24;1;ontwerp2</informatieobjectRef>
+    <informatieobjectRef>/join/id/regdata/gm1979/2021/casino/nld@2023-01-24;1;ontwerp2</informatieobjectRef>
+    <informatieobjectRef>/join/id/regdata/gm1979/2021/Delfzijl_GeluidProductiePlafonds/nld@2023-01-24;1;ontwerp2</informatieobjectRef>
+    <informatieobjectRef>/join/id/regdata/gm1979/2021/Regelingsgebiedv2/nld@2023-01-24;1;ontwerp2</informatieobjectRef>
+   </informatieobjectRefs>
+  </BesluitMetadata>
+  <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+   <bekendOp>2021-06-02</bekendOp>
+   <ontvangenOp>2021-06-09</ontvangenOp>
+   <procedurestappen>
+    <Procedurestap>
+     <soortStap>/join/id/stop/procedure/stap_003</soortStap>
+     <voltooidOp>2021-07-15</voltooidOp>
+    </Procedurestap>
+   </procedurestappen>
+  </Procedureverloop>
+  <ConsolidatieInformatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+   <BeoogdeRegelgeving>
+    <BeoogdeRegeling>
+     <doelen>
+      <doel>/join/id/proces/gm1979/2021/OntwerpNr4wijzigingsbesluit</doel>
+      <!--handmatig vervangen-->
+     </doelen>
+     <instrumentVersie>/akn/nl/act/gm1979/2021/omgevingsplandelfzijl/nld@10;ontwerp2</instrumentVersie>
+     <eId>art_I</eId>
+    </BeoogdeRegeling>
+    <BeoogdInformatieobject>
+     <doelen>
+      <doel>/join/id/proces/gm1979/2021/OntwerpNr4wijzigingsbesluit</doel>
+     </doelen>
+     <instrumentVersie>/join/id/regdata/gm1979/2021/Delfzijl_Hoofdinfrastructuur/nld@2023-01-24;1;ontwerp2</instrumentVersie>
+     <eId>!ontwerp#cmp_I__cmp_II__content_o_1__list_o_1__item_o_8__ref_o_1</eId>
+    </BeoogdInformatieobject>
+    <BeoogdInformatieobject>
+     <doelen>
+      <doel>/join/id/proces/gm1979/2021/OntwerpNr4wijzigingsbesluit</doel>
+     </doelen>
+     <instrumentVersie>/join/id/regdata/gm1979/2021/Delfzijl_Punt/nld@2023-01-24;1;ontwerp2</instrumentVersie>
+     <eId>!ontwerp#cmp_I__cmp_II__content_o_1__list_o_1__item_o_12__ref_o_1</eId>
+    </BeoogdInformatieobject>
+    <BeoogdInformatieobject>
+     <doelen>
+      <doel>/join/id/proces/gm1979/2021/OntwerpNr4wijzigingsbesluit</doel>
+     </doelen>
+     <instrumentVersie>/join/id/regdata/gm1979/2021/casino/nld@2023-01-24;1;ontwerp2</instrumentVersie>
+     <eId>!ontwerp#cmp_I__cmp_II__content_o_1__list_o_1__item_o_14__ref_o_1</eId>
+    </BeoogdInformatieobject>
+    <BeoogdInformatieobject>
+     <doelen>
+      <doel>/join/id/proces/gm1979/2021/OntwerpNr4wijzigingsbesluit</doel>
+     </doelen>
+     <instrumentVersie>/join/id/regdata/gm1979/2021/Delfzijl_GeluidProductiePlafonds/nld@2023-01-24;1;ontwerp2</instrumentVersie>
+     <eId>!ontwerp#cmp_I__cmp_II__content_o_1__list_o_1__item_o_7__ref_o_1</eId>
+    </BeoogdInformatieobject>
+    <BeoogdInformatieobject>
+     <doelen>
+      <doel>/join/id/proces/gm1979/2021/OntwerpNr4wijzigingsbesluit</doel>
+     </doelen>
+     <instrumentVersie>/join/id/regdata/gm1979/2021/Regelingsgebiedv2/nld@2023-01-24;1;ontwerp2</instrumentVersie>
+     <eId>!ontwerp#cmp_I__cmp_II__content_o_1__list_o_1__item_o_15__ref_o_1</eId>
+    </BeoogdInformatieobject>
+   </BeoogdeRegelgeving>
+   <Intrekkingen>
+    <Intrekking>
+     <doelen>
+      <doel>/join/id/proces/gm1979/2021/OntwerpNr4wijzigingsbesluit</doel>
+     </doelen>
+     <instrument>/join/id/regdata/gm1979/2021/bouwvlak_Delfzijl_Centrum</instrument>
+     <eId>!ontwerp#cmp_II__content_o_1__list_o_1__item_o_5__ref_o_1</eId>
+    </Intrekking>
+   </Intrekkingen>
+  </ConsolidatieInformatie>
+  <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+   <RegelingOpschrift eId="longTitle" wId="longTitle">
+    <Al>wijziging voor herzieningen Centrumgebied</Al>
+   </RegelingOpschrift>
+   <Lichaam eId="body" wId="body">
+    <WijzigArtikel eId="art_I" wId="gm1979_8__art_I">
+     <Kop>
+      <Label>Artikel</Label>
+      <Nummer>I</Nummer>
+     </Kop>
+     <Wat>We hebben alle artikelen van de bruidsschat geplaatst in het omgevingsplan middels intrekken en vervangen zoals aangegeven in <IntRef ref="cmp_I">BijlageI</IntRef>.</Wat>
+    </WijzigArtikel>
+    <Artikel eId="art_II" wId="gm1979_8__art_II">
+     <Kop>
+      <Label>Artikel</Label>
+      <Nummer>II</Nummer>
+     </Kop>
+     <Inhoud>
+      <Al>Dit treedt in werking per 7 mei 2021.</Al>
+     </Inhoud>
+    </Artikel>
+   </Lichaam>
+   <Sluiting eId="formula_2" wId="formula_2">
+    <Al>Gegeven te Delfzijl, 7 mei 2021</Al>
+    <Ondertekening>
+     <Al>Gedeputeerde Raad van Apeldoorn tot Den Haag</Al>
+     <Al>Richard de Graaf</Al>
+     <Al>Kasper Lingbeek</Al>
+    </Ondertekening>
+   </Sluiting>
+   <WijzigBijlage eId="cmp_I" wId="gm1979_8__cmp_I">
+    <Kop>
+     <Label>Bijlage</Label>
+     <Nummer>I</Nummer>
+     <Opschrift>Bijlage bij artikel I</Opschrift>
+    </Kop>
+    <RegelingMutatie componentnaam="ontwerp" was="/akn/nl/act/gm1979/2021/omgevingsplandelfzijl/nld@4" wordt="/akn/nl/act/gm1979/2021/omgevingsplandelfzijl/nld@10;ontwerp2">
+
+     <!--           Ontwerpwijzigingen met daarin:
+               - nieuw artikel, nieuwe locatie (15.1)
+               - nieuw artikel, bestaande locatie (15.2)
+               - verplaatst artikel (14.3)
+               - verwijderd artikel (3.59 en 13.x.2)
+               - alleen gewijzigde tekst (3.60)
+               - gewijzigd artikel, andere locatie (3.55 lid 2)
+               - verplaatst artikel met andere locatie (art 3.83 naar 14.4 en alle leden) -->
+     <VoegToe positie="volgtOp" context="gm1979_2__chp_13__subsec_13.9">
+      <Paragraaf eId="chp_13__subsec_13.10" wId="gm1979_2__chp_13__subsec_13.10">
+       <Kop>
+        <Label>Paragraaf</Label>
+        <Nummer>13.10</Nummer>
+        <Opschrift>Specifieke Verzoeken CVDR</Opschrift>
+       </Kop>
+       <Subparagraaf wId="gm1979_2__chp_13__subsec_13.10__subsec_13.10.1" eId="chp_13__subsec_13.10__subsec_13.10.1">
+        <Kop>
+         <Label>Subparagraaf</Label>
+         <Opschrift>Een subparagraaf</Opschrift>
+        </Kop>
+        <Subsubparagraaf wId="gm1979_2__chp_13__subsec_13.10__subsec_13.10.1__subsec_13.10.1.1" eId="chp_13__subsec_13.10__subsec_13.10.1__subsec_13.10.1.1">
+         <Kop>
+          <Label>Subsubparagraaf</Label>
+          <Opschrift>Een subsubparagraaf</Opschrift>
+         </Kop>
+         <Artikel wId="gm1979_2__chp_13__subsec_13.10__subsec_13.10.1__subsec_13.10.1.1__art_13.101" eId="chp_13__subsec_13.10__subsec_13.10.1__subsec_13.10.1.1__art_13.101">
+          <Kop>
+           <Label>Artikel</Label>
+           <Nummer>13.101</Nummer>
+           <Opschrift>Een artikel</Opschrift>
+          </Kop>
+          <Inhoud>
+           <Al>Dit is een artikel in een subsubparagraaf.</Al>
+          </Inhoud>
+         </Artikel>
+         <Artikel wId="gm1979_2__chp_13__subsec_13.10__subsec_13.10.1__subsec_13.10.1.1__art_13.102" eId="chp_13__subsec_13.10__subsec_13.10.1__subsec_13.10.1.1__art_13.102">
+          <Kop>
+           <Label>Artikel</Label>
+           <Nummer>13.102</Nummer>
+           <Opschrift>Een vervallen artikel</Opschrift>
+          </Kop>
+          <Vervallen/>
+         </Artikel>
+        </Subsubparagraaf>
+       </Subparagraaf>
+      </Paragraaf>
+     </VoegToe>
+     <VoegToe positie="volgtOp" context="gm1979_2__chp_13__subsec_13.10">
+      <Paragraaf eId="chp_13__subsec_13.11" wId="gm1979_2__chp_13__subsec_13.11">
+       <Kop>
+        <Label>Paragraaf</Label>
+        <Nummer>13.11</Nummer>
+        <Opschrift>Tekstopmaak</Opschrift>
+       </Kop>
+       <Artikel wId="gm1979_2__chp_13__subsec_13.11__art_13.103" eId="chp_13__subsec_13.11__art_13.103">
+        <Kop>
+         <Label>Artikel</Label>
+         <Nummer>13.103</Nummer>
+         <Opschrift>Artikel met Opmaak</Opschrift>
+        </Kop>
+        <Inhoud>
+         <Lijst type="expliciet" eId="chp_13__subsec_13.11__art_13.103__list_1" wId="gm1979_2__chp_13__subsec_13.11__art_13.103__list_1">
+          <Li eId="chp_13__subsec_13.11__art_13.103__list_1__item_a" wId="gm1979_2__chp_13__subsec_13.11__art_13.103__list_1__item_a">
+           <LiNummer>a.</LiNummer>
+           <Al><u>onderstreept</u></Al>
+          </Li>
+          <Li eId="chp_13__subsec_13.11__art_13.103__list_1__item_b" wId="gm1979_2__chp_13__subsec_13.11__art_13.103__list_1__item_b">
+           <LiNummer>b.</LiNummer>
+           <Al>vetgedrukt.</Al>
+          </Li>
+          <Li eId="chp_13__subsec_13.11__art_13.103__list_1__item_c" wId="gm1979_2__chp_13__subsec_13.11__art_13.103__list_1__item_c">
+           <LiNummer>c.</LiNummer>
+           <Al><i>cursief;</i></Al>
+          </Li>
+          <Li eId="chp_13__subsec_13.11__art_13.103__list_1__item_d" wId="gm1979_2__chp_13__subsec_13.11__art_13.103__list_1__item_d">
+           <LiNummer>d.</LiNummer>
+           <Al><i><sub>subscript</sub></i></Al></Li>
+          <Li eId="chp_13__subsec_13.11__art_13.103__list_1__item_e" wId="gm1979_2__chp_13__subsec_13.11__art_13.103__list_1__item_e">
+           <LiNummer>e.</LiNummer>
+           <Al><i><sup>superscript</sup></i></Al></Li>
+         </Lijst>
+         <Al>
+          <i>link naar externe pagina: <ExtRef ref="https://pre.omgevingswet.overheid.nl/registratie-toepasbare-regels/id/nl.imow-gm0150.activiteit.004000000000000000000033" soort="URL">Https://pre.omgevingswet.overheid.nl/registratie-toepasbare-regels/id/nl.imow-gm0150.activiteit.004000000000000000000033</ExtRef>
+          </i>
+         </Al>
+         <Al>§ test paragraaf</Al><Al>° graden</Al><Al>ë e met trema</Al><Al>ß voor de duitstaligen</Al>
+        </Inhoud>
+       </Artikel>
+      </Paragraaf>
+     </VoegToe>
+     <VoegToe positie="volgtOp" context="gm1979_2__chp_13">
+      <Hoofdstuk eId="chp_14" wId="gm1979_3__chp_14">
+       <Kop>
+        <Label>Hoofdstuk</Label>
+        <Nummer>14</Nummer>
+        <Opschrift>Wijzigingen vanuit een ontwerp</Opschrift>
+       </Kop>
+       <Artikel eId="chp_14__art_14.1" wId="gm1979_3__chp_14__art_14.1">
+        <Kop>
+         <Label>Artikel</Label>
+         <Nummer>14.1</Nummer>
+         <Opschrift>Nieuw artikel met nieuwe GIO</Opschrift>
+        </Kop>
+        <Inhoud>
+         <Al>Het <IntIoRef eId="chp_14__art_14.1__ref_o_1" wId="gm1979_3__chp_14__art_14.1__ref_o_1" ref="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_14__ref_o_1">Casino</IntIoRef> is nieuw. En bevat een ActiviteitLocatieaanduiding, je mag hier namelijk niet valsspelen.</Al>
+        </Inhoud>
+       </Artikel>
+       <Artikel eId="chp_14__art_14.2" wId="gm1979_3__chp_14__art_14.2">
+        <Kop>
+         <Label>Artikel</Label>
+         <Nummer>14.2</Nummer>
+         <Opschrift>Nieuw artikel</Opschrift>
+        </Kop>
+        <Inhoud>
+         <Al>Dit artikel wordt in ontwerp toegevoegd en bevat een <IntIoRef eId="chp_14__art_14.2__ref_o_1" wId="gm1979_3__chp_14__art_14.2__ref_o_1" ref="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_12__ref_o_1">Punt-Gebiedsaanwijzing</IntIoRef> naar een bestaande GIO.</Al>
+        </Inhoud>
+       </Artikel>
+<!--       <Artikel eId="chp_14__art_14.3" wId="gm1979_3__chp_14__art_14.3">
+        <Kop>
+         <Label>Artikel</Label>
+         <Nummer>14.3</Nummer>
+         <Opschrift>Verplaatst artikel (Voormalig 3.58 Geluid: functionele binding)</Opschrift>
+        </Kop>
+        <Inhoud>
+         <Al>De waarden voor geluid zijn niet van toepassing op het geluid door een activiteit op of in een geluidgevoelig gebouw dat een functionele binding heeft met die activiteit.</Al>
+        </Inhoud>
+       </Artikel>-->
+       <Artikel eId="chp_14__art_14.4" wId="gm1979_3__chp_14__art_14.4">
+        <Kop>
+         <Label>Artikel</Label>
+         <Nummer>14.4</Nummer>
+         <Opschrift>Toepassingsbereik duplicaat van artikel 3.83</Opschrift>
+        </Kop>
+        <Lid eId="chp_14__art_14.4__para_1" wId="gm1979_2__chp_14__art_14.4__para_1">
+         <LidNummer>1.</LidNummer>
+         <Inhoud>
+          <Al>Deze paragraaf is van toepassing op de trillingen in een frequentie van 1 tot 80 Hz door een activiteit in een trillinggevoelige ruimte van een trillinggevoelig gebouw die op een locatie is toegelaten op grond van een omgevingsplan of een omgevingsvergunning voor een omgevingsplanactiviteit.</Al>
+         </Inhoud>
+        </Lid>
+        <Lid eId="chp_14__art_14.4__para_2" wId="gm1979_2__chp_14__art_14.4__para_2">
+         <LidNummer>2.</LidNummer>
+         <Inhoud>
+          <Lijst eId="chp_14__art_14.4__para_2__list_o_1" wId="gm1979_2__chp_14__art_14.4__para_2__list_o_1" type="expliciet">
+           <Lijstaanhef>Deze paragraaf is niet van toepassing op trillingen door een activiteit:</Lijstaanhef>
+           <Li eId="chp_14__art_14.4__para_2__list_o_1__item_a" wId="gm1979_2__chp_14__art_14.4__para_2__list_o_1__item_a">
+            <LiNummer>a.</LiNummer>
+            <Al>in een trillinggevoelige ruimte van een trillinggevoelig gebouw die geheel of gedeeltelijk ligt op een gezoneerd industrieterrein of op een industrieterrein waarvoor geluidproductieplafonds als omgevingswaarden zijn vastgesteld; en</Al>
+           </Li>
+           <Li eId="chp_14__art_14.4__para_2__list_o_1__item_b" wId="gm1979_2__chp_14__art_14.4__para_2__list_o_1__item_b">
+            <LiNummer>b.</LiNummer>
+            <Al>in een trillinggevoelige ruimte van een trillinggevoelig gebouw, die op een locatie is toegelaten op grond van een omgevingsplan of een omgevingsvergunning voor een omgevingsplanactiviteit voor een duur van niet meer dan tien jaar.</Al>
+           </Li>
+          </Lijst>
+         </Inhoud>
+        </Lid>
+
+       </Artikel>
+      </Hoofdstuk>
+     </VoegToe>
+     <Vervang wat="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.58" context="gm1979_3__chp_14__art_14.2" positie="volgtOp">
+      <Artikel eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.58" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.58">
+       <Kop>
+        <Label>Artikel</Label>
+        <Nummer>3.58</Nummer>
+        <Opschrift><NieuweTekst>Verplaatst artikel (Voormalig 3.58 </NieuweTekst>Geluid: functionele binding)</Opschrift>
+       </Kop>
+       <Inhoud>
+        <Al>De waarden voor geluid zijn niet van toepassing op het geluid door een activiteit op of in een geluidgevoelig gebouw dat een functionele binding heeft met die activiteit.</Al>
+       </Inhoud>
+      </Artikel>
+     </Vervang>
+     <Verwijder wat="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.59">
+      <Artikel eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.59" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.59">
+       <Kop>
+        <Label>Artikel</Label>
+        <Nummer>3.59</Nummer>
+        <Opschrift>Geluid: voormalige functionele binding</Opschrift>
+       </Kop>
+       <Inhoud>
+        <Lijst eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.59__list_o_1" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.59__list_o_1" type="expliciet">
+         <Lijstaanhef>Bij een agrarische activiteit zijn de waarden voor geluid niet van toepassing op of in een geluidgevoelig gebouw dat:</Lijstaanhef>
+         <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.59__list_o_1__item_a" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.59__list_o_1__item_a">
+          <LiNummer>a.</LiNummer>
+          <Al>op grond van het tijdelijke deel van dit omgevingsplan, bedoeld in artikel 3.1, onder a, van de Omgevingswet of een voor de inwerkingtreding van de Omgevingswet aangevraagde omgevingsvergunning, behoort of heeft behoord tot die agrarische activiteit en door een derde bewoond mag worden; of</Al>
+         </Li>
+         <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.59__list_o_1__item_b" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.59__list_o_1__item_b">
+          <LiNummer>b.</LiNummer>
+          <Al>eerder functioneel verbonden was met die agrarische activiteit en waarvoor op grond van artikel 5.62 van het Besluit kwaliteit leefomgeving in dit omgevingsplan of een omgevingsvergunning voor een buitenplanse omgevingsplanactiviteit is bepaald dat de waarden voor geluid niet van toepassing zijn.</Al>
+         </Li>
+        </Lijst>
+       </Inhoud>
+      </Artikel>
+     </Verwijder>
+     <Vervang wat="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60">
+      <Artikel eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60">
+       <Kop>
+        <Label>Artikel</Label>
+        <Nummer>3.60</Nummer>
+        <Opschrift>Geluid: onderzoek</Opschrift>
+       </Kop>
+       <Lid eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1">
+        <LidNummer>1.</LidNummer>
+        <Inhoud>
+         <Lijst eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1" type="expliciet">
+          <Lijstaanhef>In de volgende gevallen wordt er een geluidonderzoek verricht:</Lijstaanhef>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_a" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_a">
+           <LiNummer>a.</LiNummer>
+           <Al>als tussen <VerwijderdeTekst>19.00</VerwijderdeTekst><NieuweTekst>20.00</NieuweTekst> en <VerwijderdeTekst>7.00</VerwijderdeTekst><NieuweTekst>8.00</NieuweTekst> uur per dag meer dan vier transportbewegingen plaatsvinden met motorvoertuigen waarvan de massa van het ledig voertuig vermeerderd met het laadvermogen meer is dan 3.500 kg en binnen een afstand van 50 m van de begrenzing van de locatie waarop de activiteit wordt verricht geluidgevoelige gebouwen aanwezig zijn, tenzij het
+            gaat om het bieden van gelegenheid voor het tanken van motorvoertuigen van derden of een activiteit waarvan horeca-activiteiten de kern vormen;</Al>
+          </Li>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_b" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_b">
+           <LiNummer>b.</LiNummer>
+           <Al>bij het opwekken van <NieuweTekst>stroom en </NieuweTekst>elektriciteit met een windturbine met een rotordiameter van meer dan 2 m, bedoeld in artikel 3.11 van het Besluit activiteiten leefomgeving;</Al>
+          </Li>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_c" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_c">
+           <LiNummer>c.</LiNummer>
+           <Al>als in de buitenlucht metalen in bulk worden overgeslagen <VerwijderdeTekst>of in de buitenlucht metalen mechanisch worden bewerkt;</VerwijderdeTekst></Al>
+          </Li>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_d" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_d">
+           <LiNummer>d.</LiNummer>
+           <Al>bij het reinigen van afvalwater door waterstraal- of oppervlaktebeluchters met een capaciteit van 120.000 of meer vervuilingseenheden;</Al>
+          </Li>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_e" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_e">
+           <LiNummer>e.</LiNummer>
+           <Al>bij het neutraliseren van airbags of gordelspanners door deze te ontsteken;</Al>
+          </Li>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_f" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_f">
+           <LiNummer>f.</LiNummer>
+           <Al>bij het vervaardigen van betonmortel of betonwaren;</Al>
+          </Li>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_g" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_g">
+           <LiNummer>g.</LiNummer>
+           <Al>bij een binnenschietbaan als de afstand van de binnenschietbaan tot het dichtstbijzijnde geluidgevoelige gebouw kleiner is dan <VerwijderdeTekst>50 m;</VerwijderdeTekst><NieuweTekst>30 m;</NieuweTekst></Al>
+          </Li>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_h" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_h">
+           <LiNummer>h.</LiNummer>
+           <Al>bij een buitenschietbaan als bedoeld in artikel 3.79; en</Al>
+          </Li>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i">
+           <LiNummer>i.</LiNummer>
+           <Lijst eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1" type="expliciet">
+            <Lijstaanhef>als het op basis van de aard van de activiteit aannemelijk is dat:</Lijstaanhef>
+            <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1__item_1" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1__item_1">
+             <LiNummer>1°.</LiNummer>
+             <Lijst eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1__item_1__list_o_1" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1__item_1__list_o_1" type="expliciet">
+              <Lijstaanhef>in enig vertrek op de locatie waarop de activiteit wordt verricht, het equivalente geluidniveau (L<sub>Aeq</sub>) veroorzaakt door de ten gehore gebrachte muziek in de representatieve bedrijfssituatie, meer bedraagt dan:</Lijstaanhef>
+              <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1__item_1__list_o_1__item_i" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1__item_1__list_o_1__item_i">
+               <LiNummer>i.</LiNummer>
+               <Al>70 dB(A), als dit vertrek in- of aanpandig is gelegen met geluidgevoelige gebouwen; of</Al>
+              </Li>
+              <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1__item_1__list_o_1__item_ii" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1__item_1__list_o_1__item_ii">
+               <LiNummer>ii.</LiNummer>
+               <Al>80 dB(A), in andere gevallen; of</Al>
+              </Li>
+             </Lijst>
+            </Li>
+            <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1__item_2" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_1__list_o_1__item_i__list_o_1__item_2">
+             <LiNummer>2°.</LiNummer>
+             <Al>in <VerwijderdeTekst>de buitenlucht of op</VerwijderdeTekst>een open terrein muziek ten gehore zal worden gebracht.</Al>
+            </Li>
+           </Lijst>
+          </Li>
+         </Lijst>
+        </Inhoud>
+       </Lid>
+       <Lid eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_2" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_2">
+        <LidNummer>2.</LidNummer>
+        <Inhoud>
+         <Al>Het gemiddelde aantal transportbewegingen is een gemiddelde gemeten over de periode van <VerwijderdeTekst>een</VerwijderdeTekst><NieuweTekst>drie</NieuweTekst> jaar.</Al>
+        </Inhoud>
+       </Lid>
+       <Lid eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_3" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_3">
+        <LidNummer>3.</LidNummer>
+        <Inhoud>
+         <Al>Voor een activiteit waarvan agrarische activiteiten de kern vormen, geldt in afwijking van het eerste lid, onder a, het aantal transportbewegingen tussen 19.00 en 6.00 uur.</Al>
+        </Inhoud>
+       </Lid>
+       <Lid eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_4" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_4">
+        <LidNummer>4.</LidNummer>
+        <Inhoud>
+         <Lijst eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_4__list_o_1" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_4__list_o_1" type="expliciet">
+          <Lijstaanhef>Uit het rapport van een geluidonderzoek, bedoeld in het eerste lid, blijkt op grond van verrichte geluidsmetingen of geluidsberekeningen of wordt voldaan aan:</Lijstaanhef>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_4__list_o_1__item_a" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_4__list_o_1__item_a">
+           <LiNummer>a.</LiNummer>
+           <Al>de waarden, bedoeld in de paragrafen 3.3.4.2, 3.3.4.3 en 3.3.4.4; of</Al>
+          </Li>
+          <Li eId="chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_4__list_o_1__item_b" wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.60__para_4__list_o_1__item_b">
+           <LiNummer>b.</LiNummer>
+           <Al>de van toepassing zijnde geluidswaarden van de omgevingsvergunning of een maatwerkvoorschrift. In het rapport wordt aangegeven welke voorzieningen worden getroffen om te voorkomen dat de waarden, bedoeld onder a en b, worden overschreden.</Al>
+          </Li>
+         </Lijst>
+        </Inhoud>
+       </Lid>
+      </Artikel>
+     </Vervang>
+     <Vervang wat="gm1979_2__chp_13__subsec_13.1__art_13.4">
+      <Artikel eId="chp_13__subsec_13.1__art_13.4" wId="gm1979_2__chp_13__subsec_13.1__art_13.4">
+       <Kop>
+        <Label>Artikel</Label>
+        <Nummer>13.4</Nummer>
+        <Opschrift>Punt</Opschrift>
+       </Kop>
+       <Gereserveerd wijzigactie="voegtoe"/>
+       <Inhoud wijzigactie="verwijder">
+        <Al>Dit is een voorbeeld van een <IntIoRef eId="chp_13__subsec_13.1__art_13.4__ref_o_1" wId="gm1979_2__chp_13__subsec_13.1__art_13.4__ref_o_1" ref="gm1979_2__cmp_II__content_o_1__list_o_1__item_o_12__ref_o_1">punt</IntIoRef>.</Al>
+       </Inhoud>
+      </Artikel>
+     </Vervang>
+     <Verwijder wat="gm1979_2__chp_13__subsec_13.1__art_13.X.2">
+      <Artikel eId="chp_13__subsec_13.1__art_13.X.2" wId="gm1979_2__chp_13__subsec_13.1__art_13.X.2">
+       <Kop>
+        <Label>Artikel</Label>
+        <Nummer>13.X.2</Nummer>
+        <Opschrift>Positionering gebouwen</Opschrift>
+       </Kop>
+       <Inhoud>
+        <Al>Binnen het Centrumgebied zijn bovengrondse gebouwen, tenzij elders anders is bepaald, uitsluitend toegestaan ter plaatse van de locatie <IntIoRef eId="cmp_I__art_13.X.2__ref_o_1" wId="gm1979_2__chp_13__subsec_13.1__art_13.X.2__ref_o_1" ref="gm1979_2__cmp_II__content_o_1__list_o_1__item_o_5__ref_o_1">'bouwvlak centrumgebied'</IntIoRef>. </Al>
+       </Inhoud>
+      </Artikel>
+     </Verwijder>
+     <Vervang wat="gm1979_1__cmp_II">
+      <Bijlage eId="cmp_II" wId="gm1979_1__cmp_II">
+       <Kop>
+        <Label>Bijlage</Label>
+        <Nummer>II</Nummer>
+        <Opschrift>Overzicht Informatieobjecten</Opschrift>
+       </Kop>
+       <Divisietekst eId="cmp_I__cmp_II__content_o_1" wId="gm1979_1__cmp_II__content_o_1">
+        <Inhoud>
+         <Begrippenlijst eId="cmp_I__cmp_II__content_o_1__list_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1">
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_1">
+           <Term>Bouwvlak Delfzijl Landelijk Gebied</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_1__ref_o_1" ref="/join/id/regdata/gm1979/2021/Bouwvlak_Delfzijl_Landelijk_Gebied/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/Bouwvlak_Delfzijl_Landelijk_Gebied/nld@2021-08-02;1</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_2" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_2">
+           <Term>Bouwvlak Delfzijl Landelijk Gebied Rooilijn</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_2__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_2__ref_o_1" ref="/join/id/regdata/gm1979/2021/Delfzijl_Landelijk_Gebied_Rooilijn/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/Delfzijl_Landelijk_Gebied_Rooilijn/nld@2021-08-02;1</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_3" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_3">
+           <Term>Delfzijl</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_3__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_3__ref_o_1" ref="/join/id/regdata/gm1979/2021/Delfzijl/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/Delfzijl/nld@2021-08-02;1</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_4" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_4">
+           <Term>Delfzijl Centrum</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_4__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_4__ref_o_1" ref="/join/id/regdata/gm1979/2021/Delfzijl_Centrum/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/Delfzijl_Centrum/nld@2021-08-02;1</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_5" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_5" wijzigactie="verwijder">
+           <Term>Delfzijl Centrum Bouwvlak</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_5__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_5__ref_o_1" ref="/join/id/regdata/gm1979/2021/bouwvlak_Delfzijl_Centrum/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/bouwvlak_Delfzijl_Centrum/nld@2021-08-02;1</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_6" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_6">
+           <Term>Delfzijl Centrum Bouwvlak Rooilijn</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_6__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_6__ref_o_1" ref="/join/id/regdata/gm1979/2021/bouwvlak_Delfzijl_Centrum_Rooilijn/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/bouwvlak_Delfzijl_Centrum_Rooilijn/nld@2021-08-02;1</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_7" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_7">
+           <Term>Delfzijl Geluidproductieplafonds</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_7__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_7__ref_o_1" ref="/join/id/regdata/gm1979/2021/Delfzijl_GeluidProductiePlafonds/nld@2023-01-24;1;ontwerp2">/join/id/regdata/gm1979/2021/Delfzijl_GeluidProductiePlafonds/nld@2023-01-24;1;ontwerp2</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_8" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_8">
+           <Term>Delfzijl Hoofdinfrastructuur</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_8__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_8__ref_o_1" ref="/join/id/regdata/gm1979/2021/Delfzijl_Hoofdinfrastructuur/nld@2023-01-24;1;ontwerp2">/join/id/regdata/gm1979/2021/Delfzijl_Hoofdinfrastructuur/nld@2023-01-24;1;ontwerp2</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_9" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_9">
+           <Term>Delfzijl Industrieterrein</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_9__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_9__ref_o_1" ref="/join/id/regdata/gm1979/2021/Delfzijl_Industrieterrein/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/Delfzijl_Industrieterrein/nld@2021-08-02;1</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_10" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_10">
+           <Term>Delfzijl kamerverhuur</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_10__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_10__ref_o_1" ref="/join/id/regdata/gm1979/2021/Delfzijlkamerverhuur/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/Delfzijlkamerverhuur/nld@2021-08-02;1</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_11" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_11">
+           <Term>Delfzijl landelijk gebied</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_11__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_11__ref_o_1" ref="/join/id/regdata/gm1979/2021/Delfzijl_Landelijk_Gebied/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/Delfzijl_Landelijk_Gebied/nld@2021-08-02;1</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_12" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_12">
+           <Term>Delfzijl punt</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_12__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_12__ref_o_1" ref="/join/id/regdata/gm1979/2021/Delfzijl_Punt/nld@2023-01-24;1;ontwerp2">/join/id/regdata/gm1979/2021/Delfzijl_Punt/nld@2023-01-24;1;ontwerp2</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_13" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_13">
+           <Term>Delfzijl Centrum Bouwvlak met voorgeschreven rooilijn</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_13__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_13__ref_o_1" ref="/join/id/regdata/gm1979/2021/Delfzijl_Centrum_BouwvlakMetVoorgeschrevenRooilijn/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/Delfzijl_Centrum_BouwvlakMetVoorgeschrevenRooilijn/nld@2021-08-02;1</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_14" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_14" wijzigactie="voegtoe">
+           <Term>Casino</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_14__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_14__ref_o_1" ref="/join/id/regdata/gm1979/2021/casino/nld@2023-01-24;1;ontwerp2">/join/id/regdata/gm1979/2021/casino/nld@2023-01-24;1;ontwerp2</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+          <Begrip eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_15" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_15" wijzigactie="voegtoe">
+           <Term>Regelingsgebiedv2</Term>
+           <Definitie>
+            <Al>
+             <ExtIoRef eId="cmp_I__cmp_II__content_o_1__list_o_1__item_o_15__ref_o_1" wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_15__ref_o_1" ref="/join/id/regdata/gm1979/2021/Regelingsgebiedv2/nld@2023-01-24;1;ontwerp2">/join/id/regdata/gm1979/2021/Regelingsgebiedv2/nld@2023-01-24;1;ontwerp2</ExtIoRef>
+            </Al>
+           </Definitie>
+          </Begrip>
+         </Begrippenlijst>
+        </Inhoud>
+       </Divisietekst>
+      </Bijlage>
+     </Vervang>
+    </RegelingMutatie>
+   </WijzigBijlage>
+  </BesluitCompact>
+ </BesluitVersie>
+ <RegelingVersieInformatie>
+  <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+   <FRBRWork>/akn/nl/act/gm1979/2021/omgevingsplandelfzijl</FRBRWork>
+   <FRBRExpression>/akn/nl/act/gm1979/2021/omgevingsplandelfzijl/nld@10;ontwerp2</FRBRExpression>
+   <soortWork>/join/id/stop/work_019</soortWork>
+  </ExpressionIdentificatie>
+  <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+   <versienummer>10</versienummer>
+  </RegelingVersieMetadata>
+  <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+   <soortRegeling>/join/id/stop/regelingtype_003</soortRegeling>
+   <eindverantwoordelijke>/tooi/id/gemeente/gm1979</eindverantwoordelijke>
+   <maker>/tooi/id/gemeente/gm1979</maker>
+   <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
+   <officieleTitel>Omgevingsplan gemeente Delfzijl</officieleTitel>
+   <overheidsdomeinen>
+    <overheidsdomein>/tooi/def/concept/c_3708ac5e</overheidsdomein>
+   </overheidsdomeinen>
+   <onderwerpen>
+    <onderwerp>/tooi/def/concept/c_124eaf3a</onderwerp>
+   </onderwerpen>
+   <rechtsgebieden>
+    <rechtsgebied>/tooi/def/concept/c_638d8062</rechtsgebied>
+   </rechtsgebieden>
+  </RegelingMetadata>
+ </RegelingVersieInformatie>
+</AanleveringBesluit>

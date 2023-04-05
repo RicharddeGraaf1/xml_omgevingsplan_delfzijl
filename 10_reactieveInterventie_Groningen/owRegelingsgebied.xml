@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ow-dc:owBestand xmlns:op="http://www.geostandaarden.nl/imow/opobject"
+                 xmlns:imvert="http://www.imvertor.org/schema/system"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+                 xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+                 xmlns:r="http://www.geostandaarden.nl/imow/regels"
+                 xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied"
+                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+                 xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+   <sl:standBestand>
+      <sl:dataset>Gemeentestad</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>Gemeentestad</sl:gebied>
+         <sl:leveringsId>abc-20220511-0100</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Regelingsgebied</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rg:Regelingsgebied>
+               <rg:identificatie>nl.imow-pv20.regelingsgebied.reactieveinterventie</rg:identificatie>
+               <rg:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-pv20.ambtsgebied.delfzijl"/>
+               </rg:locatieaanduiding>
+            </rg:Regelingsgebied>
+         </ow-dc:owObject>
+      </sl:stand>
+   </sl:standBestand>
+</ow-dc:owBestand>

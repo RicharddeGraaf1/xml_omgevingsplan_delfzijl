@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ow-dc:owBestand xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+                 xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+                 xmlns:k="http://www.geostandaarden.nl/imow/kaart"
+                 xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+                 xmlns:r="http://www.geostandaarden.nl/imow/regels"
+                 xmlns:s="http://www.geostandaarden.nl/imow/symbolisatie"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+   <sl:standBestand>
+      <sl:dataset>Omgevingsagenda Oost</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>Nederland</sl:gebied>
+         <sl:leveringsId>Delfzijl</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Kaart</sl:objectType>
+            <sl:objectType>SymbolisatieItem</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <sl:stand>
+         <ow-dc:owObject>
+            <k:Kaart>
+               <k:identificatie>nl.imow-gm1979.kaart.Delfzijlkaartje</k:identificatie>
+               <k:naam>Kaartvoorbeeld Delfzijl</k:naam>
+               <k:uitsnede>
+                  <k:Kaartextent>
+                     <k:minX>256721</k:minX>
+                     <k:minY>590605</k:minY>
+                     <k:maxX>264383</k:maxX>
+                     <k:maxY>595713</k:maxY>
+                  </k:Kaartextent>
+               </k:uitsnede>
+               <k:kaartlagen>
+                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau1</k:identificatie>
+                     <k:naam>Industrieterrein</k:naam>
+                     <k:niveau>1</k:niveau>
+                     <k:gebiedsaanwijzingweergave>
+                        <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.Industrieterrein"/>
+                     </k:gebiedsaanwijzingweergave>
+                  </k:Kaartlaag>
+                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau2</k:identificatie>
+                     <k:naam>Centrumgebied</k:naam>
+                     <k:niveau>2</k:niveau>
+                     <k:gebiedsaanwijzingweergave>
+                        <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.FunctieCentrumgebied"/>
+                     </k:gebiedsaanwijzingweergave>
+                  </k:Kaartlaag>
+                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau3</k:identificatie>
+                     <k:naam>Bouwvlak Centrum</k:naam>
+                     <k:niveau>3</k:niveau>
+                     <k:gebiedsaanwijzingweergave>
+                        <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.BouwvlakCentrum"/>
+                     </k:gebiedsaanwijzingweergave>
+                  </k:Kaartlaag>
+                  <!--                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau4</k:identificatie>
+                     <k:naam>Hoofdinfrastructuur</k:naam>
+                     <k:niveau>4</k:niveau>
+                     <k:gebiedsaanwijzingweergave>
+                        <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.Hoofdinfra"/>
+                     </k:gebiedsaanwijzingweergave>
+                  </k:Kaartlaag>-->
+                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau4</k:identificatie>
+                     <k:naam>Geluidproductieplafonds</k:naam>
+                     <k:niveau>4</k:niveau>
+                     <k:normweergave>
+                        <rol:OmgevingsnormRef xlink:href="nl.imow-gm1979.omgevingsnorm.Geluidsproductieplafond"/>
+                     </k:normweergave>
+                  </k:Kaartlaag>
+               </k:kaartlagen>
+            </k:Kaart>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- <sl:stand><!-\- Normwaarden als sterretjes -\->
+         <ow-dc:owObject>
+            <s:SymbolisatieItem>
+               <s:symboolcode>ps014</s:symboolcode>
+               <s:normwaardeSymbolisatie>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL1"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL2"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL3"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL4"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL5"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL6"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL7"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL8"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL9"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL10"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL11"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL12"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL13"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL14"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL15"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL16"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL17"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL18"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL19"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL20"/>
+                  <rol:NormwaardeRef xlink:href="nl.imow-gm1979.punt.GPPL21"/>
+               </s:normwaardeSymbolisatie>
+            </s:SymbolisatieItem>
+         </ow-dc:owObject>
+      </sl:stand>-->
+      <!--      <sl:stand><!-\-<!-\\- Hoofdinfra -\\->
+         <ow-dc:owObject>
+            <s:SymbolisatieItem>
+               <s:symboolcode>lt026</s:symboolcode>
+               <s:gebiedsaanwijzingSymbolisatie>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.Hoofdinfra"/>
+               </s:gebiedsaanwijzingSymbolisatie>
+            </s:SymbolisatieItem>
+         </ow-dc:owObject>
+      </sl:stand>-\->-->
+      <sl:stand><!-- Bouwvlak -->
+         <ow-dc:owObject>
+            <s:SymbolisatieItem>
+               <s:symboolcode>vsg014</s:symboolcode>
+               <s:gebiedsaanwijzingSymbolisatie>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.BouwvlakCentrum"/>
+               </s:gebiedsaanwijzingSymbolisatie>
+            </s:SymbolisatieItem>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand><!-- Centrumgebied -->
+         <ow-dc:owObject>
+            <s:SymbolisatieItem>
+               <s:symboolcode>vsg027</s:symboolcode>
+               <s:gebiedsaanwijzingSymbolisatie>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.FunctieCentrumgebied"/>
+               </s:gebiedsaanwijzingSymbolisatie>
+            </s:SymbolisatieItem>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand><!-- Industrieterrein-->
+         <ow-dc:owObject>
+            <s:SymbolisatieItem>
+               <s:symboolcode>vsg021</s:symboolcode>
+               <s:gebiedsaanwijzingSymbolisatie>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.Industrieterrein"/>
+               </s:gebiedsaanwijzingSymbolisatie>
+            </s:SymbolisatieItem>
+         </ow-dc:owObject>
+      </sl:stand>
+   </sl:standBestand>
+</ow-dc:owBestand>

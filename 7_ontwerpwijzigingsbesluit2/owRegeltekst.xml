@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+                 xmlns:op="http://www.geostandaarden.nl/imow/opobject"
+                 xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+                 xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+                 xmlns:k="http://www.geostandaarden.nl/imow/kaart"
+                 xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+                 xmlns:p="http://www.geostandaarden.nl/imow/pons"
+                 xmlns:r="http://www.geostandaarden.nl/imow/regels"
+                 xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied"
+                 xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+                 xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+   <sl:standBestand>
+      <sl:dataset>gm1979</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>gm1979</sl:gebied>
+         <sl:leveringsId>gm1979_2021-04-08</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Regeltekst</sl:objectType>
+            <sl:objectType>RegelVoorIedereen</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <!-- artikel 13x2 -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="gm1979_2__chp_13__subsec_13.1__art_13.X.2">
+               <op:status>beëindigen</op:status>
+               <op:procedurestatus>ontwerp</op:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.regeltekst.art13x2</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <ow:status>beëindigen</ow:status>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.juridischeregel.art13x2</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm1979.regeltekst.art13x2"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.DelfzijlCentrum"/>
+               </r:locatieaanduiding>
+               <r:gebiedsaanwijzing>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.BouwvlakCentrum"/>
+               </r:gebiedsaanwijzing>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.BouwwerkBouwenNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.bouwwerkbouwenart13x2</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Toegestaan</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.BouwvlakDelfzijlCentrum"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!--artikel 14.1-->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="gm1979_3__chp_14__art_14.1">
+               <op:procedurestatus>ontwerp</op:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.regeltekst.art14punt1</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.juridischeregel.art14punt1</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm1979.regeltekst.art14punt1"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.casino"/>
+               </r:locatieaanduiding>
+               <r:gebiedsaanwijzing>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.Casino"/>
+               </r:gebiedsaanwijzing>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.Valsspelen"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.casinonietvalsspelen</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Verbod</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.casino"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!--artikel 14.2-->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="gm1979_3__chp_14__art_14.2">
+               <op:procedurestatus>ontwerp</op:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.regeltekst.art14punt2</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.juridischeregel.art14punt2</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm1979.regeltekst.art14punt2"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm1979.puntengroep.DelfzijlPunt"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- artikel 13y2 -->
+     <!-- <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.juridischeregel.art13y2</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm1979.regeltekst.art13y2"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.LandelijkGebied"/>
+               </r:locatieaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.BouwwerkBouwenNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.bouwwerkbouwenart13y2</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Toegestaan</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.BouwvlakLandelijkGebied"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>-->
+      <!--eerste artikel, daar alle activiteiten voor de boom plaatsen-->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.juridischeregel.2021000001</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm1979.regeltekst.2021000001"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+               </r:locatieaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.ActInOpRegelsRijkswegeNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard1</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.AanlegActNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard2</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.AanlegWijzigSpoorwNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard3</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.ActWegWaterNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard4</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.BouwwerkBouwenNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard5</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.BouwwerkErfTerreinNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard6</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.FloraFaunaActNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard7</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.MilieubelastendeActNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard8</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.MonumEnCultErfgActNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard9</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.OverigeActNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard10</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.SloopActNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard11</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.ActWegNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard12</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.ActWaterNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard13</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.BouwwerkNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard14</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.ErfNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard15</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.TerreinNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.Richard16</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="gm1979_3__chp_14__art_14.3">
+               <op:procedurestatus>ontwerp</op:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.regeltekst.2021000124</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="gm1979_2__chp_3__subchp_3.4__subsec_3.4.4__subsec_3.3.4.1__art_3.59">
+               <op:status>beëindigen</op:status>
+               <op:procedurestatus>ontwerp</op:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.regeltekst.2021000125</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <ow:status>beëindigen</ow:status>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.juridischeregel.2021000125</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm1979.regeltekst.2021000125"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+               </r:locatieaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.GeluidProdActNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.2020000031</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.Delfzijl"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.juridischeregel.2021000121</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm1979.regeltekst.2021000121"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.BouwvlakLandelijkGebied"/>
+               </r:locatieaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.GeluidProdActNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.2020000031</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.BouwvlakLandelijkGebied"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="gm1979_2__chp_14__art_14.4__para_1">
+               <op:procedurestatus>ontwerp</op:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.regeltekst.2021000171</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="gm1979_2__chp_14__art_14.4__para_2">
+               <op:procedurestatus>ontwerp</op:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.regeltekst.2021000172</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <r:identificatie>nl.imow-gm1979.juridischeregel.2021000172</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm1979.regeltekst.2021000172"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.DelfzijlIndustrieterrein"/>
+               </r:locatieaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm1979.activiteit.TrillingenNw"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm1979.activiteitlocatieaanduiding.2020000035</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm1979.gebiedengroep.DelfzijlIndustrieterrein"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+   </sl:standBestand>
+</ow-dc:owBestand>

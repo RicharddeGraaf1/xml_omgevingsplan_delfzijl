@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             schemaversie="1.2.0"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/gm1979/2021/Regelingsgebiedv2</FRBRWork>
+         <FRBRExpression>/join/id/regdata/gm1979/2021/Regelingsgebiedv2/nld@2023-01-24;1;ontwerp</FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>Regelingsgebiedv2.gml</bestandsnaam>
+                  <hash>169407b773c2c60ad9a3248d977811d25efc71f3f75be80831f104e602d4161a016b7be083b62c233f57620eef1e0c3b4471b0bdc7b77b99b53a12a0e5fd28a9</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+         <heeftGeboorteregeling>/akn/nl/act/gm1979/2021/omgevingsplandelfzijl</heeftGeboorteregeling>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/tooi/id/gemeente/gm1979</eindverantwoordelijke>
+         <maker>/tooi/id/gemeente/gm1979</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>Regelingsgebied versie2</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>/join/id/regdata/gm1979/2021/Regelingsgebiedv2</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+         <naamInformatieObject>Regelingsgebiedv2</naamInformatieObject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

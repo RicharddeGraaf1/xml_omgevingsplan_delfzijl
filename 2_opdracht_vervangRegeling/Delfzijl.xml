@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             schemaversie="1.2.0"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/gm1979/2021/Delfzijl</FRBRWork>
+         <FRBRExpression>/join/id/regdata/gm1979/2021/Delfzijl/nld@2021-08-02;1</FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>Delfzijl.gml</bestandsnaam>
+                  <hash>cfb0fe1b175b867f41ecd968c144db9b2ec75aebee2e508f3d6017597995b1c31765c55c41a7afdb529af2531247f85192597fdd221831f4cdbf9e8804e908a4</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+         <heeftGeboorteregeling>/akn/nl/act/gm1979/2021/omgevingsplandelfzijl</heeftGeboorteregeling>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/tooi/id/gemeente/gm1979</eindverantwoordelijke>
+         <maker>/tooi/id/gemeente/gm1979</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>Delfzijl ambtsgebied</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>/join/id/regdata/gm1979/2021/Delfzijl</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+         <naamInformatieObject>Delfzijl ambtsgebied</naamInformatieObject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>
