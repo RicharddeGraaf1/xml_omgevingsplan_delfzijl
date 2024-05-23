@@ -23,7 +23,7 @@
                <geo:naam>Delfzijl kamerverhuur</geo:naam>
                <geo:geometrie>
                   <basisgeo:Geometrie>
-                     <basisgeo:id>d1fc3632-1f57-4081-9bf9-c3d3e2047598</basisgeo:id>
+                     <basisgeo:id>ac3a5f9e-4b61-4d2f-88c7-98a8b44bfbd8</basisgeo:id>
                      <basisgeo:geometrie>
                         <gml:MultiSurface srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>

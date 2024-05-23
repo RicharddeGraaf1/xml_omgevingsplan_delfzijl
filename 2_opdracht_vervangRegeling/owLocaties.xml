@@ -41,7 +41,7 @@
             <l:Gebied>
                <l:identificatie>nl.imow-gm1979.gebied.kamerverhuur</l:identificatie>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="d1fc3632-1f57-4081-9bf9-c3d3e2047598"/>
+                  <l:GeometrieRef xlink:href="ac3a5f9e-4b61-4d2f-88c7-98a8b44bfbd8"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>
