@@ -497,5 +497,15 @@
             </l:Gebied>
          </ow-dc:owObject>
       </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm1979.gebied.ETRS89</l:identificatie>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="830e1706-c60c-4892-8ff0-b9ac6b2bc814"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
    </sl:standBestand>
 </ow-dc:owBestand>

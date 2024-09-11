@@ -26,6 +26,7 @@
          <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
          <informatieobjectRefs>
             <informatieobjectRef>/join/id/regdata/gm1979/2021/Delfzijl/nld@2021-04-10;1</informatieobjectRef>
+            <informatieobjectRef>/join/id/regdata/gm1979/2022/PonsDelfzijl/nld@2022-01-01;1</informatieobjectRef>
             <!--GIO t.b.v. regelinggebied -->
          </informatieobjectRefs>
       </BesluitMetadata>

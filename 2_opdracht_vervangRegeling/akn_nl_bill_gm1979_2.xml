@@ -35,6 +35,7 @@
             <informatieobjectRef>/join/id/regdata/gm1979/2021/Delfzijl_Landelijk_Gebied/nld@2021-08-02;1</informatieobjectRef>
             <informatieobjectRef>/join/id/regdata/gm1979/2021/Delfzijl_Punt/nld@2021-08-02;1</informatieobjectRef>
             <informatieobjectRef>/join/id/regdata/gm1979/2021/Delfzijl_Centrum_BouwvlakMetVoorgeschrevenRooilijn/nld@2021-08-02;1</informatieobjectRef>
+            <informatieobjectRef>/join/id/regdata/gm1979/2021/ZZZ_ETRS89/nld@2021-08-02;1</informatieobjectRef>
          </informatieobjectRefs>
       </BesluitMetadata>
       <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -147,6 +148,13 @@
                </doelen>
                <instrumentVersie>/join/id/regdata/gm1979/2021/Delfzijl_Centrum_BouwvlakMetVoorgeschrevenRooilijn/nld@2021-08-02;1</instrumentVersie>
                <eId>!integraletekstvervanging#cmp_II__content_o_1__list_o_1__item_o_13__ref_o_1</eId>
+            </BeoogdInformatieobject>
+            <BeoogdInformatieobject>
+               <doelen>
+                  <doel>/join/id/proces/gm1979/2021/IntegraleTekstVervangingBruidsschatDelfzijl</doel>
+               </doelen>
+               <instrumentVersie>/join/id/regdata/gm1979/2021/ZZZ_ETRS89/nld@2021-08-02;1</instrumentVersie>
+               <eId>!integraletekstvervanging#cmp_II__content_o_1__list_o_1__item_o_14__ref_o_1</eId>
             </BeoogdInformatieobject>
          </BeoogdeRegelgeving>
          <Tijdstempels>
@@ -15646,6 +15654,20 @@
                               </Subsubparagraaf>
                            </Subparagraaf>
                         </Paragraaf>
+                        <Paragraaf eId="chp_13__subsec_13.10" wId="gm1979_2__chp_13__subsec_13.11">
+                           <Kop>
+                              <Label>Paragraaf</Label>
+                              <Nummer>13.11</Nummer>
+                              <Opschrift>ETRS-test</Opschrift>
+                           </Kop>
+                           <Artikel wId="gm1979_2__chp_13__subsec_13.11__art_13.200" eId="chp_13__subsec_13.11__art_13.200">
+                              <Kop>
+                                 <Nummer>13.200</Nummer>
+                                 <Opschrift>ETRS-test</Opschrift>
+                              </Kop>
+                              <Inhoud><Al>ETRS-geometrie</Al></Inhoud>
+                           </Artikel>
+                        </Paragraaf>
                      </Hoofdstuk>
                   </Lichaam>
                      <Bijlage eId="cmp_II" wId="gm1979_1__cmp_II">
@@ -15798,6 +15820,17 @@
                                           <ExtIoRef eId="cmp_II__content_o_1__list_o_1__item_o_13__ref_o_1"
                                              wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_13__ref_o_1"
                                              ref="/join/id/regdata/gm1979/2021/Delfzijl_Centrum_BouwvlakMetVoorgeschrevenRooilijn/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/Delfzijl_Centrum_BouwvlakMetVoorgeschrevenRooilijn/nld@2021-08-02;1</ExtIoRef>
+                                       </Al>
+                                    </Definitie>
+                                 </Begrip>
+                                 <Begrip eId="cmp_II__content_o_1__list_o_1__item_o_14"
+                                    wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_14">
+                                    <Term>ETRS89-GIO</Term>
+                                    <Definitie>
+                                       <Al>
+                                          <ExtIoRef eId="cmp_II__content_o_1__list_o_1__item_o_14__ref_o_1"
+                                             wId="gm1979_1__cmp_II__content_o_1__list_o_1__item_o_14__ref_o_1"
+                                             ref="/join/id/regdata/gm1979/2021/ZZZ_ETRS89/nld@2021-08-02;1">/join/id/regdata/gm1979/2021/ZZZ_ETRS89/nld@2021-08-02;1</ExtIoRef>
                                        </Al>
                                     </Definitie>
                                  </Begrip>

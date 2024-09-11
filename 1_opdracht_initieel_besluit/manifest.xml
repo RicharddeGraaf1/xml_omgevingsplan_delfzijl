@@ -24,6 +24,10 @@
       <contentType>application/xml</contentType>
    </bestand>
    <bestand>
+      <bestandsnaam>gm1979Pons_Geonovum.xml</bestandsnaam>
+      <contentType>application/xml</contentType>
+   </bestand>
+   <bestand>
       <bestandsnaam>gm1979Regelingsgebied_Geonovum.xml</bestandsnaam>
       <contentType>application/xml</contentType>
    </bestand>
