@@ -15124,6 +15124,39 @@
                                              <Al>De tekst van de tabelnoot.</Al>
                                           </Noot>tabelnoot.</Al>
                                     </Li>
+                                    <Li wId="gm1979_2__chp_13__subsec_13.3__art_13.11__list_o_1__item_19" eId="chp_13__subsec_13.3__art_13.11__list_o_1__item_19">
+                                       <Al>Tekst met Figuur en Formule in een Noot
+                                          <Noot id="N6" type="voet">
+                                             <NootNummer>N6</NootNummer>
+                                             <Lijst
+                                                eId="chp_13__subsec_13.3__art_13.11__list_o_1__item_19__list_o_1" type="expliciet"
+                                                wId="gm1979_2__chp_13__subsec_13.3__art_13.11__list_o_1__item_19__list_o_1"> 
+                                                <Li
+                                                   eId="chp_13__subsec_13.3__art_13.11__list_o_1__item_19__list_o_1__item_1__img_o_1"
+                                                   wId="gm1979_2__chp_13__subsec_13.3__art_13.11__list_o_1__item_19__list_o_1__item_1">
+                                                   <LiNummer>1</LiNummer> 
+                                                   <Figuur eId="chp_13__subsec_13.3__art_13.11__list_o_1__item_19__list_o_1__item_1__img_o_1"
+                                                      wId="gm1979_2__chp_13__subsec_13.3__art_13.11__list_o_1__item_19__list_o_1__item_1__img_o_1">
+                                                      <Titel>Foute Figuur in een Noot</Titel>
+                                                      <Illustratie breedte="600" dpi="300" formaat="image/png" hoogte="300"
+                                                         naam="figuren.png" uitlijning="start"/>
+                                                   </Figuur>
+                                                </Li>
+                                                <Li
+                                                   eId="subsec_1__art_1.1__para_1__list_o_1__item_b"
+                                                   wId="gm1979_2__chp_13__subsec_13.3__art_13.11__list_o_1__item_19__list_o_1__item_2">
+                                                   <LiNummer>2</LiNummer>
+                                                   <Formule eId="chp_13__subsec_13.3__art_13.11__list_o_1__item_19__list_o_1__item_2"
+                                                      wId="gm1979_2__chp_13__subsec_13.3__art_13.11__list_o_1__item_19__list_o_1__item_2__math_o_1">                                
+                                                      <Illustratie breedte="600" dpi="300" formaat="image/png" hoogte="300"
+                                                         naam="formule.png" uitlijning="start"/>
+                                                      <Bijschrift locatie="boven">Foute Formule in een Noot</Bijschrift>
+                                                   </Formule>
+                                                </Li>                          
+                                             </Lijst>
+                                          </Noot> rest van de tekst.
+                                       </Al>
+                                    </Li>
                                  </Lijst>
                               </Inhoud>
                            </Artikel>

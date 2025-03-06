@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ow-dc:owBestand xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+                 xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+                 xmlns:k="http://www.geostandaarden.nl/imow/kaart"
+                 xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+                 xmlns:r="http://www.geostandaarden.nl/imow/regels"
+                 xmlns:s="http://www.geostandaarden.nl/imow/symbolisatie"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+   <sl:standBestand>
+      <sl:dataset>Omgevingsagenda Oost</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>Nederland</sl:gebied>
+         <sl:leveringsId>Delfzijl</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Kaart</sl:objectType>
+<!--            <sl:objectType>SymbolisatieItem</sl:objectType>-->
+         </sl:objectTypen>
+      </sl:inhoud>
+      <sl:stand>
+         <ow-dc:owObject>
+            <k:Kaart>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <k:identificatie>nl.imow-gm1979.kaart.Delfzijlkaartje</k:identificatie>
+               <k:naam>Kaartvoorbeeld Delfzijl</k:naam>
+               <k:uitsnede>
+                  <k:Kaartextent>
+                     <k:minX>256721</k:minX>
+                     <k:minY>590605</k:minY>
+                     <k:maxX>264383</k:maxX>
+                     <k:maxY>595713</k:maxY>
+                  </k:Kaartextent>
+               </k:uitsnede>
+               <k:kaartlagen>
+                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau1</k:identificatie>
+                     <k:naam>Industrieterrein</k:naam>
+                     <k:niveau>1</k:niveau>
+                     <k:gebiedsaanwijzingweergave>
+                        <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.Industrieterrein"/>
+                     </k:gebiedsaanwijzingweergave>
+                  </k:Kaartlaag>
+                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau2</k:identificatie>
+                     <k:naam>Centrumgebied</k:naam>
+                     <k:niveau>2</k:niveau>
+                     <k:gebiedsaanwijzingweergave>
+                        <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.FunctieCentrumgebied"/>
+                     </k:gebiedsaanwijzingweergave>
+                  </k:Kaartlaag>
+<!--                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau3</k:identificatie>
+                     <k:naam>Bouwvlak Centrum</k:naam>
+                     <k:niveau>3</k:niveau>
+                     <k:gebiedsaanwijzingweergave>
+                        <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.BouwvlakCentrum"/>
+                     </k:gebiedsaanwijzingweergave>
+                  </k:Kaartlaag>-->
+<!--                  <k:Kaartlaag>
+                     <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau4</k:identificatie>
+                     <k:naam>Hoofdinfrastructuur</k:naam>
+                     <k:niveau>4</k:niveau>
+                     <k:gebiedsaanwijzingweergave>
+                        <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.Hoofdinfra"/>
+                     </k:gebiedsaanwijzingweergave>
+                  </k:Kaartlaag>-->
+                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau4</k:identificatie>
+                     <k:naam>Rooilijn</k:naam>
+                     <k:niveau>4</k:niveau>
+                     <k:normweergave>
+                        <rol:OmgevingsnormRef xlink:href="nl.imow-gm1979.omgevingsnorm.Rooilijn"/>
+                     </k:normweergave>
+                  </k:Kaartlaag>
+                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau5</k:identificatie>
+                     <k:naam>Bouwen toegestaan</k:naam>
+                     <k:niveau>5</k:niveau>
+                     <k:activiteitlocatieweergave>
+                        <r:ActiviteitLocatieaanduidingRef xlink:href="nl.imow-gm1979.activiteitlocatieaanduiding.bouwwerkbouwenart13x2"/>
+                     </k:activiteitlocatieweergave>
+                  </k:Kaartlaag>
+                  <k:Kaartlaag>
+                     <k:identificatie>nl.imow-gm1979.kaartlaag.niveau6</k:identificatie>
+                     <k:naam>Casino</k:naam>
+                     <k:niveau>6</k:niveau>
+                     <k:gebiedsaanwijzingweergave>
+                        <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm1979.gebiedsaanwijzing.Casino"/>
+                     </k:gebiedsaanwijzingweergave>
+                  </k:Kaartlaag>
+                  
+               </k:kaartlagen>
+            </k:Kaart>
+         </ow-dc:owObject>
+      </sl:stand>
+   </sl:standBestand>
+</ow-dc:owBestand>
